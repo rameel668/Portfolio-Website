@@ -4,6 +4,13 @@
     padding: 0;
 }
 
+/* Define a custom counter style named 'arrow' */
+@counter-style arrow {
+    system: cyclic;
+    symbols: '►'; /* Arrow symbol */
+    suffix: ' '; /* Add a space after the arrow */
+}
+
 /* Basic Styling */
 body {
     margin: 0 auto;
@@ -49,16 +56,58 @@ nav{
     color: black;
 }
 
-/* Main Styling */
-section{
+/* About Me Styling */
+.aboutme{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 20px 20px 0px 20px;
 }
 
+.aboutme div{
+    padding-right: 50px;
+    text-align: left;
+}
+
+.aboutme div p{
+    padding-top: 10px;
+}
+
 .rameelimg{
     max-width: 1200px;
     max-height: 500px;
     border-radius: 25px;
+}
+
+/* Skills Styling */
+.skills{
+    text-align: left;
+    padding: 0px 20px 0px 20px;
+}
+
+.skills h2{
+    margin-top: 10px;
+}
+
+.skills ol{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    list-style: arrow;
+    list-style-position: inside;
+}
+
+.skills li{
+    padding: 2.5px;
+}
+
+.icons{
+    font-size: 32px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.icons li{
+    padding: 10px;
 }
