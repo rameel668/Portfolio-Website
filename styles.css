@@ -79,14 +79,14 @@ nav{
     border-radius: 25px;
 }
 
-/* Skills Styling */
+/* Skills & Project Styling */
 .skills{
     text-align: left;
     padding: 0px 20px 0px 20px;
 }
 
 .skills h2{
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .skills ol{
@@ -110,4 +110,30 @@ nav{
 
 .icons li{
     padding: 10px;
+}
+
+#project1:hover{
+    cursor: pointer;
+}
+
+#projectInfo{
+    padding: 10px;
+    display: none;
+}
+
+.project1-content {
+    display: flex;
+}
+
+.project1-content div{
+    padding: 5px;
+}
+
+.project1-content p{
+    padding: 5px 10px 5px 10px;
+}
+
+.project1-content img{
+    max-height: 500px;
+    border: 1px solid purple;
 }
