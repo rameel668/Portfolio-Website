@@ -50,11 +50,15 @@ nav{
 }
 
 /* Main Styling */
-main h2{
-    
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px 0px 20px;
 }
 
-main img{
+.rameelimg{
     max-width: 1200px;
-    max-height: 900px;
+    max-height: 500px;
+    border-radius: 25px;
 }
