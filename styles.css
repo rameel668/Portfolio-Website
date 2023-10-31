@@ -79,6 +79,13 @@ nav{
     border-radius: 25px;
 }
 
+@media screen and (max-width: 320px){
+    .rameelimg{
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+
 /* Skills & Project Styling */
 .skills{
     text-align: left;
