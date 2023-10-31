@@ -136,3 +136,50 @@ nav{
     max-height: 500px;
     border: 1px solid purple;
 }
+
+.project1-content .p1-icons{
+    font-size: 32px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.project1-content .p1-icons li{
+    padding: 10px 5px 0 20px;
+}
+
+/* Contact */
+.contact-container{
+    text-align: left;
+    padding: 0px 0px 0px 20px;
+}
+
+.ct-icons{
+    font-size: 32px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.ct-icons li{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.ct-icons .ct-pd{
+    padding-left: 40px;
+}
+
+.ct-icons a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    color: rgba(0, 0, 0, 0.253);
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
