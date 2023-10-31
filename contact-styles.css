@@ -1,0 +1,57 @@
+/* Global Styling */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Define a custom counter style named 'arrow' */
+@counter-style arrow {
+    system: cyclic;
+    symbols: '►'; /* Arrow symbol */
+    suffix: ' '; /* Add a space after the arrow */
+}
+
+/* Basic Styling */
+body {
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+
+/* Navigation Styling */
+nav{
+    width: 100%;
+    max-height: 100px;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: start;
+    align-items: center;
+    padding: 25px 0px 25px 0px;
+}
+
+.nav-container li{
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: monospace, arial;
+    color: white;
+    font-size: 18px;
+}
+
+.nav-container a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-container a:hover{
+    color: black;
+}
