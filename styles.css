@@ -61,7 +61,7 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px 20px 0px 20px;
+    padding: 20px 10px 0px 20px;
 }
 
 .aboutme div{
@@ -186,10 +186,10 @@ footer{
 
 
 /* Mobile Compatability */
-@media screen and (max-width: 401px){
+@media screen and (max-width: 601px){
     .rameelimg{
         margin-top: 20px;
-        max-width: 300px;
+        max-width: 250px;
         max-height: auto;
     }
 
@@ -206,9 +206,51 @@ footer{
         max-height: 50px;
     }
 
+    main{
+        font-size: 10px;
+    }
+
     .aboutme{
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutme div{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #project1{
         font-size: 12px;
+    }
+
+    .project1-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project1-content img{
+        max-width: 300px;
+        border: 1px solid purple;
+    }
+    
+    .project1-content .p1-icons{
+        font-size: 16px;
+        justify-content: center;
+    }
+
+    .icons{
+        font-size: 16px;
+    }
+
+    .ct-icons{
+        font-size: 16px;
+    }
+
+    footer{
+        font-size: 10px;
     }
 }
